@@ -11,10 +11,9 @@ namespace NewC_2._3
             int stepSequence = 7;
             int number = minNumber;
 
-            while (number <= maxNumber)
+            for (int i = minNumber; i <= maxNumber; i=i+stepSequence)
             {
-                Console.Write($"{number} ");
-                number = number + stepSequence;
+                Console.Write($"{i} ");
             }
 
             Console.ReadKey();
