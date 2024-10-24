@@ -9,7 +9,6 @@ namespace NewC_2._3
             int minNumber = 5;
             int maxNumber = 103;
             int stepSequence = 7;
-            int number = minNumber;
 
             for (int i = minNumber; i <= maxNumber; i=i+stepSequence)
             {
